@@ -1,0 +1,140 @@
+.toolbtn {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  background-origin: content-box;
+}
+
+.toolbtn:hover{
+  cursor: pointer;
+}
+
+.toolbtn.send {
+  background-image: url("./icons/light/ico_send.svg");
+  background-color: rgb(134, 131, 131);
+}
+
+.toolbtn.pen {
+  background-image: url("./icons/light/ico_draw.svg");
+  background-color: rgb(134, 131, 131);
+}
+
+.toolbtn.pen.active {
+  background-image: url("./icons/light/ico_draw.svg");
+  background-color: rgb(100, 205, 240);
+}
+
+.toolbtn.rect {
+  background-image: url("./icons/light/ico_rectangle.svg");
+  background-color: rgb(134, 131, 131);
+}
+
+.toolbtn.rect.active {
+  background-image: url("./icons/light/ico_rectangle.svg");
+  background-color: rgb(100, 205, 240);
+}
+
+.toolbtn.circle {
+  background-image: url("./icons/light/ico_ellipse.svg");
+  background-color: rgb(134, 131, 131);
+}
+
+.toolbtn.circle.active {
+  background-image: url("./icons/light/ico_ellipse.svg");
+  background-color: rgb(100, 205, 240);
+}
+
+.toolbtn.text {
+  background-image: url("./icons/light/ico_text.svg");
+  background-color: rgb(134, 131, 131);
+}
+
+.toolbtn.text.active {
+  background-image: url("./icons/light/ico_text.svg");
+  background-color: rgb(100, 205, 240);
+}
+
+
+.toolbtn.erase {
+  background-image: url("./icons/light/ico_trash.svg");
+  background-color: rgb(134, 131, 131);
+}
+
+.toolbtn.erase.active {
+  background-image: url("./icons/light/ico_trash.svg");
+  background-color: rgb(100, 205, 240);
+}
+
+/*********************************************************************/
+
+.strokebtn {
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.strokebtn {
+  color: white;
+  background-color: transparent;
+}
+
+.strokebtn.active {
+  color: black;
+  background-color: white;
+}
+
+
+/*********************************************************************/
+
+.colorbtn {
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.colorbtn {
+  background-color: transparent;
+}
+
+.colorbtn.active {
+  background-color: white;
+}
+
+/*********************************************************************/
+
+
+.collapse{
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+}
+
+.collapse.up{
+  background-image: url("./icons/light/ico_caret_up.svg");
+}
+
+.collapse.down{
+  background-image: url("./icons/light/ico_caret_down.svg");
+}
+
+.collapse.left{
+  background-image: url("./icons/light/ico_caret_left.svg");
+}
+
+.collapse.right{
+  background-image: url("./icons/light/ico_caret_right.svg");
+}
+
