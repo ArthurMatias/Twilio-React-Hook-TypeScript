@@ -10,7 +10,7 @@ This application demonstrates a multi-party video application built with [twilio
 * No other infrastructure is required
 * No code changes are required before your first deploy
 
-![App Preview](https://github.com/hitman91028/Twilio-React-Hook-TypeScript/tree/master/screenshot/image_screen.png)
+![App Preview](https://github.com/hitman91028/Twilio-React-Hook-TypeScript/blob/master/screenshot/image_screen.PNG)
 
 
 ### Running a local token server
